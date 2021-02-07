@@ -1,0 +1,370 @@
+.arkaplan{
+    background-color: rgb(253, 244, 231);
+}
+
+.menu{
+    width: 1400px;
+    height: 100px;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.yazi{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-weight: 700;
+}
+
+.amblem{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(253, 169, 14);
+    margin-top: auto;
+    padding-left: 7px;
+    padding-right: 10px;
+    border-radius: 10px;
+  
+    float: left;
+}
+
+#buton{
+    
+    float: left;
+    margin-left: 30px;
+    
+    width: 100px;
+    height: 50px;
+}
+.arama{
+    border: 1px solid rgb(90, 83, 76);
+    float: left;
+    display: block;
+    text-align: left;
+    width: 500px;
+    margin-left: 50px;
+    padding: 14px;
+    background-color: rgb(247, 247, 247);
+
+}
+#btn-ara{
+    margin-left: 10px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    
+    margin-top: 7px;
+}
+#üyeol{
+    
+    float: right;
+    margin-left: 10px;
+    margin-right: 40px;
+    
+    width: 150px;
+    height: 50px;
+}
+#kayit{
+    float: right;
+    margin-left: 10px;
+    margin-right: 40px;
+    
+    width: 150px;
+    height: 50px;
+
+}
+#slider {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#slider .slides {
+    display: block;
+    width: 7000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1000px;
+    height: 400px;
+}
+figure{
+    display: block; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+figcaption { 
+    position: absolute; 
+    background: rgba(0,0,0,0.75); 
+    color: white; 
+    padding: 10px 20px; 
+  
+    opacity: 1;
+    bottom: 0; 
+    left: 0;
+}
+#altslayt{
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 450px;
+    
+}
+
+#altslayt .altslaytici{
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#altslayt .slaytici{
+    float: left;
+    list-style-type: none;
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+}
+#deneme{
+   
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(230, 210, 201);
+   
+    margin-top: 20px;
+    
+    margin-left: 240px;
+}
+#deneme2{
+   
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(209, 192, 185);
+    margin-left: 240px;
+    margin-top: 20px;
+}
+#foto{
+ margin-left: 10px;
+ margin-top: 6px;
+
+}
+.kayit1{
+    background-color:bisque;
+    margin-left: 500px;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.uye{
+    background-color:bisque;
+    margin-left: 500px;
+    width: 600px;
+    height: 300px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#kytbtn{
+ width: 200px;
+ margin: auto;
+
+}
+#submit{
+    margin-top: 8px;
+}
+.main{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 1200px;
+    height: 300px;
+    background-color: bisque;
+    float: left;
+}
+.foto{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.baslik{
+  
+    display: inline-block;
+    margin-left: 80px;
+    width: 800px;
+    height: 70px;
+    background-color: rgba(15, 15, 15, 0.918);
+    margin-top: 20px;
+    font-style: italic;
+    font:bolder;
+    padding-left: 230px;
+    padding-top: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: floralwhite;
+    border-radius: 50%;
+
+}
+.aciklama{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 950px;
+    background-color: bisque;
+    float: left;
+    height: 170px;
+    color: rgb(2, 2, 2);
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: larger;
+    
+    
+}
+.rating {
+    float:left;
+    width:600px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.rating span { float:right; position:relative; }
+.rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating span label {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#FFF;
+    background:#ccc;
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+    
+}
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+    background:rgb(0, 0, 0);
+    color:#FFF;
+}
+.cast{
+    width: 500px;
+    background-color: rgba(15, 15, 15, 0.918);
+    margin-top: 430px;
+    margin-left: 450px;
+    height: 60px;
+   
+    color: floralwhite;
+    padding-left: 150px;
+    padding-top: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+}
+.casts{
+    width: 800px;
+    background-color: rgb(230, 210, 201);
+    margin-top: 20px;
+    margin-left: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+.casts2{
+    width: 800px;
+    background-color: rgb(209, 192, 185) ;
+    margin-top: 20px;
+    margin-left: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bolder;
+ 
+    
+}
+.casts2a{
+    width: 800px;
+    background-color: rgb(209, 192, 185) ;
+    margin-top: 20px;
+    margin-left: 300px;
+    height: 60px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bolder;
+ 
+}
+#foto1{
+    float: left;
+    
+    padding-right: 50px;
+   
+}
+#yorum{
+    background-color: rgb(253, 244, 231) ;
+    width: 1200px;
+    height: 200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+   
+}
+#isim{
+    padding-left: 450px;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.ekran{
+    width: 1000px;
+    margin-left: 100px;
+    background-color: rgb(243, 145, 26)  ;
+    height: 100px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.text{
+    margin-top: 20px;
+    width: 1000px;
+    height: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+#btnyrm{
+    width: 100px;
+    margin-left: 1000px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#yazi1{
+    margin-left: 30px;
+    padding-top: 12px;
+}
+#yazi2{
+    margin-left: 870px;
+}
